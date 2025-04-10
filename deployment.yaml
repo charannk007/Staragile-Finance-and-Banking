@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: capstone-project
+  namespace: finance-stars-agiles
 spec:
   replicas: 2
   selector:
@@ -18,7 +19,28 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
-
+# -------------------------------------------------------------------------------------------------------------------
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: capstone-project
+# spec:
+#   replicas: 2
+#   selector:
+#     matchLabels:
+#       app: financeproject
+#   template:
+#     metadata:
+#       labels:
+#         app: financeproject
+#     spec:
+#       containers:
+#         - name: capstoneproject-container
+#           image: nkcharan/financeproject:v1
+#           imagePullPolicy: Always
+#           ports:
+#             - containerPort: 8081
+# --------------------------------------------------------------------------------
 # apiVersion: apps/v1
 # kind: Deployment
 # metadata:
