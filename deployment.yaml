@@ -4,7 +4,7 @@ metadata:
   name: capstone-project
   namespace: finance-stars-agiles
 spec:
-  replicas: 6
+  replicas: 1
   selector:
     matchLabels:
       app: financeproject
