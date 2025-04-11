@@ -18,7 +18,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: capstoneproject-service
-  namespace: finance-stars-agiles
+  namespace: star
 spec:
   selector:
     app: financeproject
