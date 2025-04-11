@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: capstoneproject-container
-          image: nkcharan/financeproject:v1
+          image: nkcharan/financeproject:v3
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
