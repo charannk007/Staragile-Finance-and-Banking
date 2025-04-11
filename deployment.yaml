@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: capstone-project
-  namespace: finance-stars-agiles
+  namespace: star
 spec:
   replicas: 5
   selector:
