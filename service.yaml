@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: capstoneproject-service
-  namespace: finance-stars-agiles  # Ensure the service is deployed in the correct namespace
+  namespace: star  # Ensure the service is deployed in the correct namespace
 spec:
   selector:
     app: financeproject  # This should match the label of the Pod/Deployment
