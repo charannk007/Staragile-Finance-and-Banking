@@ -2,7 +2,7 @@ apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: capstone-autoscaler
-  namespace: finance-stars-agiles
+  namespace: star
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
